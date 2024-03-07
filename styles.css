@@ -1,0 +1,163 @@
+body
+{
+    background-color: lightgreen;
+    height:3000px;
+    margin-left:50px;
+    margin-top:45px;
+}
+
+
+
+.pass
+{
+    border-radius: 8px;
+    background: #bfffbf;
+    color: #ff2b4a;
+}
+.pass:hover
+{
+    cursor: pointer;
+    font-family: timesnewroman;
+}
+. check
+{
+    position: relative;
+    padding-left: 20px;
+}
+.head
+{
+    color: #4740ff;
+    text-transform: uppercase;
+    font-family: times new roman;
+    position: relative;
+}
+.lan
+{
+    color: #ff352b;
+    font-family: arial;
+}
+.btn
+{
+    border-radius: 8px;
+    text-align: center;
+    borderline:solid;
+    border-color: #6affb6
+}
+.img
+{
+    color: #9180ff;
+    font-family:times new roman;
+}
+.fence
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 4px;
+    column-gap:4px;
+    row-gap:8px;
+    column-gap:8px;
+}
+.one
+{
+    background: #53453e;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.two
+{
+    background: #78645a;
+    border-radius: 8px;
+    text-align: center;
+}
+.three
+{
+    background: #987f72;
+    border-radius: 8px;
+    text-align: center; 
+}
+.four
+{
+    background: #b79989;
+    border-radius: 8px;
+    text-align: center; 
+}
+.in-text
+{
+    border-radius: 8px;
+    color: #8c808c;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.list
+{
+    display: inline-block;
+    font-family:times new roman;
+    
+}
+.list1
+{
+    display: inline-block;
+    margin-left:16px;
+    font-family:times new roman;
+    text-decorate:none;
+}
+.list2
+{
+    display: inline-block;
+    margin-left:16px;
+    border-radius: 8px;
+    background: #7a7a7a;
+    opacity:0.5;
+    font-family:times new roman;
+    
+}
+.header
+{
+    text-align: center;
+    color: lightgreen;
+    text-transform:uppercase;
+    font-size:large;
+    font-weight:800;
+    font-family:times new roman;
+}
+.cont
+{
+    display:flex;
+    justify-content:end;
+}
+.side-bar
+{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    left:0;
+    top:40px;
+    width:40px;
+    height:700px;
+    background: lightblue;
+    justify-content: space-around;
+}
+.home-btn
+{
+    width: 25px;
+    font-size:4px;
+}
+.contacting-btn
+{
+    width: 25px;
+}
+.top-bar
+{
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:40px;
+    background: #80ffea;
+    
+    
+}
